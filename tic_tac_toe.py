@@ -148,7 +148,7 @@ def main():
 
     root = tk.Tk()
     root.title("Tic Tac Toe")
-    root.geometry("460x640")
+    root.geometry("460x720")  # Mai mult spațiu pentru Toggle Theme
     root.configure(bg=BG_COLOR)
     root.resizable(False, False)
     current_player = "X"
@@ -199,9 +199,9 @@ def main():
                             relief="flat", width=14, command=restart_match)
     restart_btn.pack(side="left", padx=10)
 
-    # Toggle Theme
+    # Toggle Theme - plasat mai jos și cu padding suficient
     bottom_frame = tk.Frame(root, bg=BG_COLOR)
-    bottom_frame.pack(pady=(10, 20))
+    bottom_frame.pack(pady=(20, 30))  # spațiu mai clar între butoane și margine
 
     toggle_btn = tk.Button(bottom_frame, text="Toggle Theme", font=("Segoe UI", 11),
                            bg="#6c757d", fg="white", activebackground="#495057",
@@ -209,6 +209,7 @@ def main():
     toggle_btn.pack()
 
     root.mainloop()
+
 
 if __name__ == "__main__":
     main()
