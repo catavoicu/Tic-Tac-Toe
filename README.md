@@ -59,7 +59,7 @@ The GUI will launch in a new window.
 
 ## Screenshots
 
-https://github.com/catavoicu/Tic-Tac-Toe/blob/main/interface.png
+![Interface Preview](https://raw.githubusercontent.com/catavoicu/Tic-Tac-Toe/main/interface.png)
 ---
 
 ## Technical Requirements
