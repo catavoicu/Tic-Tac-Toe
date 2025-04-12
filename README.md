@@ -59,7 +59,15 @@ The GUI will launch in a new window.
 
 ## Screenshots
 
+**Main Menu**
+   
 ![Interface Preview](https://raw.githubusercontent.com/catavoicu/Tic-Tac-Toe/main/interface.png)
+
+
+**Game in Progress**
+   
+![Interface Preview](https://raw.githubusercontent.com/catavoicu/Tic-Tac-Toe/main/game.png)
+
 ---
 
 ## Technical Requirements
